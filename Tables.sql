@@ -1,3 +1,6 @@
+/* Create a table schema for each of the six CSV files */
+
+
 CREATE TABLE dept_emp (
     "emp_no" INT NOT NULL,
     "dept_no" VARCHAR(10) NOT NULL
