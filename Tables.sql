@@ -1,3 +1,5 @@
+							/* Data Engineering */
+
 /* Create a table schema for each of the six CSV files */
 
 
@@ -6,6 +8,7 @@ CREATE TABLE dept_emp (
     "dept_no" VARCHAR(10) NOT NULL
 );
 
+
 CREATE TABLE departments (
     "dept_no" VARCHAR(10)   NOT NULL,
     "dept_name" VARCHAR(30)   NOT NULL,
@@ -13,6 +16,7 @@ CREATE TABLE departments (
         "dept_no"
      )
 );
+
 
 CREATE TABLE dept_manager (
     "dept_no" VARCHAR(10)   NOT NULL,
@@ -33,12 +37,16 @@ CREATE TABLE "employees" (
      )
 );
 
+
 CREATE TABLE "salaries" (
     "emp_no" INT   NOT NULL,
     "salary" INT   NOT NULL
 );
 
+
 CREATE TABLE "titles" (
     "title_id" INT   NOT NULL,
     "title" VARCHAR(20)   NOT NULL
 );
+
+
